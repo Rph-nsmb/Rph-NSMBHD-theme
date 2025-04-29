@@ -1,0 +1,235 @@
+@import url('../../css/borders.css');
+@import url('../../css/roundcorners.css');
+
+
+
+:root {
+
+	--padding: 5px;
+	--bg: rgba(0, 48, 111, .29);
+	--radius: 25px;
+	--border: none;
+	--filter: blur(15px);
+	--text-color: #FFF;
+	--link: #00016c;
+	--link-hover: #7dc9ff;
+	--image-bg: url("https://raw.githubusercontent.com/NSMBC/NSMBC.github.io/refs/heads/main/mods/New%20Mini%20SMB/assets/MKDS%20menu.png");
+	--shadow: none;
+}
+
+/* If you want to make a simple theme, just edit the above variables. Otherwise, you can take a look at the sections below*/
+
+
+
+
+.message {
+	box-shadow: var(--shadow);
+}
+
+.faq {
+	background: var(--bg);
+}
+
+#header {
+	background: var(--bg);
+	border-radius: var(--radius);
+	backdrop-filter: var(--filter);
+	padding: var(--padding);
+	border: none !important;
+	box-shadow: var(--shadow);
+}
+
+#boardheader,
+#boardheader2 {
+	background: transparent;
+	border-bottom: none;
+}
+
+.header0 th {
+	color: var(--text-color);
+}
+
+body {
+
+	background: var(--image-bg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#body {
+
+	background: var(--image-bg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#body-wrapper {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 90%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header0 th {
+	background: transparent;
+	color: var(--text-color);
+}
+
+.header1 th {
+	background: transparent;
+}
+
+.cell2 {
+	backdrop-filter: none;
+	background: transparent;
+}
+
+.cell1,
+table.post td.side,
+table.post td.userlink,
+table.post td.meta {
+	backdrop-filter: none;
+	background: transparent;
+	color: var(--text-color);
+}
+
+.cell0,
+table.post td.post,
+.faq {
+	backdrop-filter: none;
+	background: transparent;
+	color: var(--text-color);
+}
+
+
+button,
+input[type = "submit"] {
+	border: none;
+	background: rgba(0, 0, 0, 0.25);
+	color: var(--text-color);
+}
+
+input[type = "text"],
+input[type = "password"],
+input[type = "file"],
+input[type = "email"],
+select,
+textarea,
+input[type = "checkbox"],
+input[type = "radio"] {
+	background: rgba(0, 0, 0, 0.25);
+	border: none;
+	color: var(--text-color);
+}
+
+input[type = "radio"] {
+	border-radius: 8px;
+}
+
+input[type = "text"]:focus,
+input[type = "password"]:focus,
+input[type = "file"]:focus,
+input[type = "email"]:focus,
+select:focus,
+textarea:focus {
+	border-color: rgba(256, 90, 10, 0);
+}
+
+input[type = "text"],
+input[type = "password"],
+input[type = "file"],
+input[type = "email"],
+select,
+textarea,
+input[type = "checkbox"],
+input[type = "radio"] {
+	background: rgba(0, 0, 0, 0.25);
+	border: none;
+	color: var(--text-color);
+}
+
+div#tabs button.selected {
+	border-bottom: 1px solid rgba(161, 62, 5, 0);
+	background: rgba(161, 62, 5, 0);
+}
+
+#theme_banner {
+	border-radius: 12px;
+	border: none;
+}
+
+.PoRT {
+  box-shadow: none;
+}
+
+table,
+td,
+tr,
+th,
+div {
+	border-color: transparent;
+	padding: 2px;
+	color: var(--text-color);
+}
+
+td {
+	background: transparent;
+	backdrop-filter: none;
+	color: var(--text-color);
+}
+
+table.post {
+	width: 100%;
+	margin-bottom: 8px;
+	background: var(--bg);
+	backdrop-filter: blur(5px);
+	color: var(--text-color);
+	box-shadow: var(--shadow);
+}
+
+table.message td,
+table.message th {
+	text-align: center;
+	color: var(--text-color);
+	font-size: 1em;
+}
+
+
+.header1:first-child th,
+.header0:first-child th,
+.errort {
+	background: transparent;
+	border-bottom: 0px none;
+	padding-bottom: 4px;
+}
+
+a,
+a:link,
+a:visited {
+
+	color: var(--link);
+}
+
+a:hover {
+	color: var(--link-hover);
+}
+
+table.outline {
+	border-radius: 12px;
+	backdrop-filter: var(--filter);
+	background: var(--bg);
+	box-shadow: var(--shadow);
+	border: transparent;
+}
+
+#userpanel {
+	padding: 5px;
+	border-top: none;
+	border-left: none;
+}
